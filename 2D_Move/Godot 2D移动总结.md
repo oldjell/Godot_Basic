@@ -24,7 +24,7 @@ X轴方向 向左移动为负，向右移动为正
 
 表达式中位置 代表的是下一帧该节点出现的坐标位置。
 
-![image-20200325004915404](D:\B站\Godot3.2 2D移动基础\教程文案\image-20200325004915404.png)
+![image-20200325004915404.png](https://github.com/oldjell/Godot_Node/blob/master/2D_Move/image-20200325004915404.png)
 
 2、方向 direction
 
@@ -51,7 +51,7 @@ func _my_Direction ():
 
 如下图所示，如果不归一化斜着右下距离名字大于(1,0)或者(0,1)
 
-![image-20200323052636995](D:\B站\Godot3.2 2D移动基础\教程文案\image-20200323052636995.png)
+![image-20200323052636995](https://github.com/oldjell/Godot_Node/blob/master/2D_Move/image-20200323052636995.png)
 
 关于func _input(event): 写在这里函数里面处理输入，不能当按键按住时不起作用，只起按一次的作用。比如你写在_process里面然后按住左键它会连续向左，而input由于没有每帧处理就只有一次。
 
