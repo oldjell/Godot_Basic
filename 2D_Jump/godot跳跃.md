@@ -93,7 +93,7 @@ if Input.is_action_just_pressed("ui_select"):
 
 这里还有一个参数需要你来指定，就是跳跃在空中的总时间，jumpTime，它是包含上升和下落时间。
 
-![image-20200326072402960](C:\Users\MarioJY\Desktop\image-20200326072402960.png)
+![image-20200326072402960](https://github.com/oldjell/Godot_Node/blob/master/2D_Jump/image-20200326072402960.png)
 
 先列一下我们的已知条件：
 
